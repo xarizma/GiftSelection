@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+	{% load staticfiles %}
+	<link rel="stylesheet" href="/static/css/main.css">
+</head>
+<body>
+	<header>
+		{% block content %}
+		<div class="main">
+			<div class="centerBlock">
+				<div class="intoCenterBlock">
+					<p class="cc1"><a href="#">Кино</a></p>
+					<p class="cc2"><a href="#">Мужчина</a></p>
+					<p class="cc3"><a href="#">Женщина</a></p>
+					<p class="cc4"><a href="#">Игры</a></p>
+					<p class="cc5"><a href="#">Аниме</a></p>
+					<p class="cc6"><a href="#">Дача</a></p>
+				</div>
+			</div>
+		</div>
+		{% endblock %}
+	</header>
+</body>
+</html>
