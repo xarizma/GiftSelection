@@ -1,20 +1,74 @@
-body {
-	font-family: Comic Sans MS;
+* {
 	padding: 0;
 	margin: 0;
-	background: url(../img/background.jpg) no-repeat bottom left / cover;
+	outline: none;
 }
 
+html{ height: 100%; }
+
+body {
+	width: 100%; 
+	height: 100%; 
+	font-family: "Segoe UI" ,Arial, sans-serif; 
+	background: url(../img/background.jpg) no-repeat center center fixed / cover;
+}
+
+a {
+	text-decoration: none; 
+}
+
+/*Шапка проекта*/
+
 header {
-	border: 1px dashed blac
-	padding: 0;
-	margin: 0;
-	height: 100vh;
+	border-bottom: 2px solid black;
+	height: 15%;
+	background-color: #fafafa; 
+}
+
+#logo { 
+	float: left;
+	padding: 2%;
+}
+
+#logo p a{
+	font-family: Comic Sans MS;
+	font-size: 1.5em;
+	color: black;
+	font-weight: bold;
+}
+
+#regPanel{
+	float: right;
+	padding: 3%;
+}
+
+#regPanel a {
+	color: black;
+	font-size: 1.1em;
+}
+
+#regPanel p {
+ float:left;
+ padding-left: 5px;
+}
+
+#regestration a:hover {
+
+}
+
+#authorization{
+
+}
+
+/*Тело проекта*/
+
+main {
+	height: 100%;
 	width: 100%;
 }
-.main {
+.mainProject {
 	margin:auto auto;
-	height: 100vh; 
+	height: 100%; 
 	width: 950px;
 }
 .centerBlock{
@@ -31,10 +85,20 @@ header {
 
 }
 .intoCenterBlock a {
+	font-family: Comic Sans MS;
 	text-transform: uppercase;
-	text-decoration: none;
 	color: #282828;
 }
+
+.intoCenterBlock a:hover {
+	-webkit-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	transition: all.6s ease;
+	color: #10CFDB;
+}	
+
 .cc1 {
 	float: left;
 	margin-top: 335px;
@@ -61,3 +125,28 @@ header {
 	float: right;
 	margin-top: 285px;
 }
+
+/*footer проекта */
+
+footer {
+	border-top: 2px solid black;
+	background-color: #fafafa; 
+	height: 20%;
+}
+
+#social img{
+	padding-top: 0.5%;
+	padding-left: 0.5%;
+}
+#social img{
+	width: 30px; 
+	height: 30px;
+}
+
+#rights {
+	padding: 0.5%;
+}
+
+#admin {
+	padding-left: 0.5%;
+} 
