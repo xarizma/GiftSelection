@@ -20,9 +20,10 @@ a {
 /*Шапка проекта*/
 
 header {
+	background: url(../img/background-header.png) repeat center center fixed / cover;
+	background-size: 300px;
 	border-bottom: 2px solid black;
 	height: 15%;
-	background-color: #fafafa; 
 }
 
 #logo { 
@@ -136,7 +137,8 @@ main {
 
 footer {
 	border-top: 2px solid black;
-	background-color: #fafafa; 
+	background: url(../img/background-header.png) repeat center center fixed / cover;
+	background-size: 300px;
 	height: 20%;
 }
 
