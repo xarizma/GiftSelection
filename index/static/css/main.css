@@ -53,7 +53,13 @@ header {
 }
 
 #regestration a:hover {
-
+	-webkit-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	transition: all.6s ease;
+	background-color: #767676;
+	border-radius: 10px;
 }
 
 #authorization{
