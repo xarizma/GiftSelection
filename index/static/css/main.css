@@ -15,6 +15,7 @@ body {
 
 a {
 	text-decoration: none; 
+	color:black;
 }
 
 /*Шапка проекта*/
@@ -48,17 +49,17 @@ header {
 }
 
 #regestration a:hover {
-	-webkit-transition: all.6s ease;
+	/*-webkit-transition: all.6s ease;
 	-moz-transition: all.6s ease;
 	-o-transition: all.6s ease;
 	-ms-transition: all.6s ease;
 	transition: all.6s ease;
 	background-color: #767676;
-	border-radius: 10px;
+	border-radius: 10px;*/
 }
 
 #authorization{
-
+	/*надо дополнить*/
 }
 
 /*Тело проекта*/
@@ -67,11 +68,71 @@ main {
 	height: 100%;
 	width: 100%;
 }
-.mainProject {
-	margin:auto auto;
-	height: 100%; 
-	width: 950px;
+
+#menuBlock {
+	left: -230px;
+	float:left;
+	position: fixed;
+	width: 200px; 
+	height: 100%;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	-o-transition: all 300ms;
+	-ms-transition: all 300ms;
 }
+
+#menuBlock.active {
+	left: 0px;
+}
+
+#menuBlock ul li:first-child {
+ 	text-align: center;
+ 	color: white; 
+ 	font-size: 1.9em; 
+ 	list-style: none; 
+ 	padding: 25px 10px 10px 10px;
+ 	color:black;
+}
+
+#menuBlock ul li:not(first-child) {
+	width: 90%; 
+ 	margin-left: 10%;
+ 	color: white; 
+ 	font-size: 1.1em; 
+ 	list-style: none; 
+ 	padding: 5px 10px;
+}
+
+#menuBlock ul li a:hover {
+	color:#fafafa;
+}
+
+#menuBlock .menuButton {
+	position: absolute;
+	left: 250px; 
+	top: 20px;
+	background:#fff;
+	padding: 10px; 
+	border-radius: 12px; 
+	cursor: pointer;
+}
+
+#menuBlock .menuButton span {
+	display: block; 
+	width: 25px; 
+	height: 4px; 
+	background-color: #666; 
+	margin: 4px; 
+}
+
+#menuBlock .menuButton:hover{
+	background: #556270; 
+}
+
+#menuBlock .menuButton:hover span {
+	background: #fafafa; 
+}
+
 .centerBlock{
 	background: url(../img/forblock.png) no-repeat center left / cover;
 	background-size: 700px;

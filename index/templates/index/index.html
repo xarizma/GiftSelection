@@ -6,6 +6,7 @@
 	{% load staticfiles %}
 	<link rel="stylesheet" href="/static/css/main.css">
 	<link rel="shortcut icon" href="/static/img/icon2.png" type="image/png">
+	<script src="/static/js/phisics.js"></script>
 </head>
 <body>
 	{% block content %}
@@ -18,7 +19,18 @@
 		</div>
 	</header>
 	<main>
-		<div class="mainProject">
+		<div id="menuBlock">
+			<div class="menuButton" onclick="openMenu()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul>
+				<li>Меню сайта</li>
+				<li><a href="/">Главная</a></li>
+				<li><a href="/">О проекте</a></li>
+			</ul>
+		</div>
 			<div class="centerBlock">
 				<div class="intoCenterBlock">
 					<p class="cc1"><a href="#">Кино</a></p>
@@ -29,7 +41,6 @@
 					<p class="cc6"><a href="#">Дача</a></p>
 				</div>
 			</div>
-		</div>
 	</main>
 	<footer>
 		<div>
