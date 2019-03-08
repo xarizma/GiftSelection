@@ -32,32 +32,6 @@ header {
 	padding-top: 1%;
 }
 
-
-#regPanel{
-	float: right;
-	padding: 3%;
-}
-
-#regPanel a {
-	color: black;
-	font-size: 1.1em;
-}
-
-#regPanel p {
- float:left;
- padding-left: 5px;
-}
-
-#regestration a:hover {
-	/*-webkit-transition: all.6s ease;
-	-moz-transition: all.6s ease;
-	-o-transition: all.6s ease;
-	-ms-transition: all.6s ease;
-	transition: all.6s ease;
-	background-color: #767676;
-	border-radius: 10px;*/
-}
-
 #authorization{
 	/*надо дополнить*/
 }
@@ -141,51 +115,12 @@ main {
 	margin:auto;
 }
 .intoCenterBlock {
+	padding-top: 350px;
+	padding-left: 70px;
 	margin: auto;
-	height: 450px; 
-	width: 550px;
-
-}
-.intoCenterBlock a {
-	font-family: Comic Sans MS;
-	text-transform: uppercase;
-	color: #282828;
-}
-
-.intoCenterBlock a:hover {
-	-webkit-transition: all.6s ease;
-	-moz-transition: all.6s ease;
-	-o-transition: all.6s ease;
-	-ms-transition: all.6s ease;
-	transition: all.6s ease;
-	color: #10CFDB;
-}	
-
-.cc1 {
-	float: left;
-	margin-top: 335px;
-	margin-left: 50px;
-}
-.cc2{
-	float: right;
-	margin-top: 350px;
-}
-.cc3{
-	float: right;
-	margin-top: 400px;
-}
-.cc4{
-	float: left;
-	margin-top: 425px;
-	margin-left: 70px;
-}
-.cc5{
-	float: left;
-	margin-top: 340px;
-}
-.cc6{
-	float: right;
-	margin-top: 285px;
+	height: 100px; 
+	width: 480px;
+	border: 1px solid black;
 }
 
 /*footer проекта */
@@ -197,19 +132,10 @@ footer {
 	height: 20%;
 }
 
-#social img{
-	padding-top: 0.5%;
-	padding-left: 0.5%;
-}
-#social img{
-	width: 30px; 
-	height: 30px;
-}
-
 #rights {
 	padding: 0.5%;
 }
 
 #admin {
 	padding-left: 0.5%;
-} 
+}
