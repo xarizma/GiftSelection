@@ -15,7 +15,13 @@
 			<a href="http://localhost:8000" title="GiftSelection"><img src="/static/img/GiftSelection-icon.png" alt=""></a>
 		</div>
 		<div id="regPanel">
-			<p id="regestration"><a href="/" title="Регистрация">Регистрация</a></p><p>|</p><p id="authorization"><a href="/" title="Авторизация"> Авторизация</a></p>
+			<form action="" method="post"> {% csrf_token %}
+				{{ form }}
+				<div>
+					<button type="submit">submit</button>
+				</div>
+			</form>
+
 		</div>
 	</header>
 	<main>
